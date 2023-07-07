@@ -1,0 +1,10 @@
+    post http://localhost:3003/api/blogs
+    Content-Type: application/json
+    
+    
+    {
+        "title": "Does the header change",
+        "author": "nick",
+        "url": "what",
+        "likes": 4
+    }
